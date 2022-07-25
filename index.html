@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +26,14 @@
             scaleMobile: 1.00
 
             })
+
+            setTimeout(function(){
+            let container = document.querySelector('.container');
+            container.style.opacity = 1.0;
+        }, 1000);
         })
+
+
         </script>
     <div class="container">
         <div class="header">
@@ -35,9 +43,11 @@
 
         <div class="body">
             <ul>
-                <li class="linkButton"><a href="https://www.instagram.com/white.boy_alex/" class="fa fa-instagram"> <h2>Instagram</h2></a></li>
-                <li class="linkButton"><a href="https://www.linkedin.com/in/alex-rosales-186b1a1b7" class="fa fa-linkedin" > LinkedIn</a></li>
-                <li class="linkButton"><a href="https://github.com/hAlexrr" class="fa fa-github"> Github</a></li>
+                <!-- FIXME : Edit styling of buttons -->
+
+                <li class="linkButton"><a href="https://www.instagram.com/white.boy_alex/" class="fa fa-instagram fa-2x" target="_blank"> Instagram</a></li>
+                <li class="linkButton"><a href="https://www.linkedin.com/in/alex-rosales-186b1a1b7" class="fa fa-linkedin fa-2x" target="_blank"> LinkedIn</a></li>
+                <li class="linkButton"><a href="https://github.com/hAlexrr" class="fa fa-github fa-2x" target="_blank"> Github</a></li>
             </ul>
         </div>
 
